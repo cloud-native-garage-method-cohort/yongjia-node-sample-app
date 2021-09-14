@@ -1,4 +1,4 @@
-FROM node:14.17
+FROM quay.io/upslopeio/node
 
 # Create app directory
 WORKDIR /usr/src/app
