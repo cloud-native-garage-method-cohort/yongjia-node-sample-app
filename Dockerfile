@@ -1,4 +1,4 @@
-FROM quay.io/upslopeio/node
+FROM quay.io/ibmgaragecloud/node:latest
 
 # Create app directory
 WORKDIR /usr/src/app
