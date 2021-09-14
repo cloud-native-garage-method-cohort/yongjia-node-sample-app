@@ -4,6 +4,9 @@ metadata:
   name: nodejs-pipeline
 spec:
   params:
+    - name: app-name
+      type: string
+      description: app name going to display
     - name: source-repo
       type: string
       description: Source code repository
